@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B13941B28C2BC98003F3360 /* OnboardingScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B13941A28C2BC98003F3360 /* OnboardingScreens.swift */; };
 		5BF9EAA828C2424300572E2A /* SafelinkCodesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9EAA728C2424300572E2A /* SafelinkCodesApp.swift */; };
 		5BF9EAAA28C2424300572E2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9EAA928C2424300572E2A /* ContentView.swift */; };
 		5BF9EAAC28C2424400572E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF9EAAB28C2424400572E2A /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 		5BF9EABE28C2424400572E2A /* SafelinkCodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9EABD28C2424400572E2A /* SafelinkCodesTests.swift */; };
 		5BF9EAC828C2424400572E2A /* SafelinkCodesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9EAC728C2424400572E2A /* SafelinkCodesUITests.swift */; };
 		5BF9EACA28C2424400572E2A /* SafelinkCodesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9EAC928C2424400572E2A /* SafelinkCodesUITestsLaunchTests.swift */; };
+		5BF9EAE128C25BF000572E2A /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9EAE028C25BF000572E2A /* SplashScreen.swift */; };
+		5BF9EAE328C25C2400572E2A /* SwiftTutorialCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9EAE228C25C2400572E2A /* SwiftTutorialCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B13941A28C2BC98003F3360 /* OnboardingScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreens.swift; sourceTree = "<group>"; };
 		5BF9EAA428C2424300572E2A /* SafelinkCodes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafelinkCodes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF9EAA728C2424300572E2A /* SafelinkCodesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafelinkCodesApp.swift; sourceTree = "<group>"; };
 		5BF9EAA928C2424300572E2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 		5BF9EAC328C2424400572E2A /* SafelinkCodesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafelinkCodesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF9EAC728C2424400572E2A /* SafelinkCodesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafelinkCodesUITests.swift; sourceTree = "<group>"; };
 		5BF9EAC928C2424400572E2A /* SafelinkCodesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafelinkCodesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BF9EAE028C25BF000572E2A /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		5BF9EAE228C25C2400572E2A /* SwiftTutorialCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorialCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +104,23 @@
 		5BF9EAA628C2424300572E2A /* SafelinkCodes */ = {
 			isa = PBXGroup;
 			children = (
+				5BF9EADF28C2442400572E2A /* Animation Challenge (Part 3) */,
+				5BF9EADE28C2441400572E2A /* Animation Challenge (Part 2) */,
+				5BF9EADD28C2440900572E2A /* Analytics Page (App 6) */,
+				5BF9EADC28C243F900572E2A /* Tiktok Feeds (App 5) */,
+				5BF9EADB28C243EF00572E2A /* Crypto App (App 4) */,
+				5BF9EADA28C243E500572E2A /* Income Tracker (App 3) */,
+				5BF9EAD928C243CA00572E2A /* Animation Challenge (Part 1) */,
+				5BF9EAD828C243BF00572E2A /* Onboarding Screen (App 2) */,
+				5BF9EAD728C243B400572E2A /* Onboarding Screen (App 1) */,
+				5BF9EAD628C243AC00572E2A /* Splash Screen */,
 				5BF9EAA728C2424300572E2A /* SafelinkCodesApp.swift */,
 				5BF9EAA928C2424300572E2A /* ContentView.swift */,
 				5BF9EAAB28C2424400572E2A /* Assets.xcassets */,
 				5BF9EAB028C2424400572E2A /* Persistence.swift */,
 				5BF9EAB228C2424400572E2A /* SafelinkCodes.xcdatamodeld */,
 				5BF9EAAD28C2424400572E2A /* Preview Content */,
+				5BF9EAE228C25C2400572E2A /* SwiftTutorialCode.swift */,
 			);
 			path = SafelinkCodes;
 			sourceTree = "<group>";
@@ -131,6 +148,78 @@
 				5BF9EAC928C2424400572E2A /* SafelinkCodesUITestsLaunchTests.swift */,
 			);
 			path = SafelinkCodesUITests;
+			sourceTree = "<group>";
+		};
+		5BF9EAD628C243AC00572E2A /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5BF9EAE028C25BF000572E2A /* SplashScreen.swift */,
+			);
+			path = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		5BF9EAD728C243B400572E2A /* Onboarding Screen (App 1) */ = {
+			isa = PBXGroup;
+			children = (
+				5B13941A28C2BC98003F3360 /* OnboardingScreens.swift */,
+			);
+			path = "Onboarding Screen (App 1)";
+			sourceTree = "<group>";
+		};
+		5BF9EAD828C243BF00572E2A /* Onboarding Screen (App 2) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Onboarding Screen (App 2)";
+			sourceTree = "<group>";
+		};
+		5BF9EAD928C243CA00572E2A /* Animation Challenge (Part 1) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Animation Challenge (Part 1)";
+			sourceTree = "<group>";
+		};
+		5BF9EADA28C243E500572E2A /* Income Tracker (App 3) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Income Tracker (App 3)";
+			sourceTree = "<group>";
+		};
+		5BF9EADB28C243EF00572E2A /* Crypto App (App 4) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Crypto App (App 4)";
+			sourceTree = "<group>";
+		};
+		5BF9EADC28C243F900572E2A /* Tiktok Feeds (App 5) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tiktok Feeds (App 5)";
+			sourceTree = "<group>";
+		};
+		5BF9EADD28C2440900572E2A /* Analytics Page (App 6) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Analytics Page (App 6)";
+			sourceTree = "<group>";
+		};
+		5BF9EADE28C2441400572E2A /* Animation Challenge (Part 2) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Animation Challenge (Part 2)";
+			sourceTree = "<group>";
+		};
+		5BF9EADF28C2442400572E2A /* Animation Challenge (Part 3) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Animation Challenge (Part 3)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +352,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF9EAE328C25C2400572E2A /* SwiftTutorialCode.swift in Sources */,
+				5BF9EAE128C25BF000572E2A /* SplashScreen.swift in Sources */,
+				5B13941B28C2BC98003F3360 /* OnboardingScreens.swift in Sources */,
 				5BF9EAB128C2424400572E2A /* Persistence.swift in Sources */,
 				5BF9EAB428C2424400572E2A /* SafelinkCodes.xcdatamodeld in Sources */,
 				5BF9EAAA28C2424300572E2A /* ContentView.swift in Sources */,
