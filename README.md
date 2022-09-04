@@ -26,3 +26,6 @@ https://user-images.githubusercontent.com/72549011/188305801-1d65437b-1585-4779-
 
 ### Onboarding Screen (App 1)
 https://user-images.githubusercontent.com/72549011/188305810-6a618e06-bae7-4683-a98b-7b024a6106f0.mp4
+
+### Animation Challenge
+https://user-images.githubusercontent.com/72549011/188332441-85d50c18-cc43-494f-abb6-67d611be4f07.mp4
