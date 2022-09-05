@@ -46,6 +46,7 @@
 		5BD78F8328C3B7A300A081AA /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		5BD78F8528C3B82600A081AA /* BookArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookArtist.swift; sourceTree = "<group>"; };
 		5BD78F8728C3C55300A081AA /* ScrollModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollModifier.swift; sourceTree = "<group>"; };
+		5BDB2DC028C5E9F000D1EBA2 /* SafelinkPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SafelinkPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5BF9EAA428C2424300572E2A /* SafelinkCodes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafelinkCodes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF9EAA728C2424300572E2A /* SafelinkCodesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafelinkCodesApp.swift; sourceTree = "<group>"; };
 		5BF9EAA928C2424300572E2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BDB2DBF28C5E9E300D1EBA2 /* SafelinkPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				5BDB2DC028C5E9F000D1EBA2 /* SafelinkPlayground.playground */,
+			);
+			path = SafelinkPlayground;
+			sourceTree = "<group>";
+		};
 		5BF9EA9B28C2424300572E2A = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +119,7 @@
 		5BF9EAA628C2424300572E2A /* SafelinkCodes */ = {
 			isa = PBXGroup;
 			children = (
+				5BDB2DBF28C5E9E300D1EBA2 /* SafelinkPlayground */,
 				5BF9EADF28C2442400572E2A /* Animation Challenge (Part 3) */,
 				5BF9EADE28C2441400572E2A /* Animation Challenge (Part 2) */,
 				5BF9EADD28C2440900572E2A /* Analytics Page (App 6) */,
